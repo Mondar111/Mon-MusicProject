@@ -1,8 +1,8 @@
 {
-  "name": "Geez Music",
+  "name": "Mon Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/vckyou/Geez-MusicProject",
+  "repository": "https://github.com/mondar111/Mon-MusicProject",
   "stack": "container",
   "buildpacks": [
    {
@@ -30,17 +30,17 @@
     "SUPPORT_GROUP": {
       "description": "Grup dukungan MusicPlayer Anda Tanpa Menggunakan ==> @ <== [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "GeezSupportGroup"
+      "value": "familynirvana"
     },
     "UPDATES_CHANNEL": {
       "description": "Updates Channel @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "GeezProjects"
+      "value": "familynvn"
     }, 
     "PROJECT_NAME": {
       "description": "Nama proyek MusicPlayer Anda.",
       "required": false,
-      "value": "Geez Projects"
+      "value": "Mon Projects"
     },
     "ASSISTANT_NAME": {
       "description": "Username Telegram asisten Music Player Anda tanpa @.",
@@ -57,7 +57,7 @@
     "BG_IMAGE": {
       "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/7de6a24af6cfc049a9316.png"
+      "value": "https://telegra.ph/file/e9a725eb55f2c91a1d2f9.png"
     },        
     "API_ID": {
       "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",

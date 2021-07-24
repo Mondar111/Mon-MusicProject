@@ -5,7 +5,7 @@
 ### Available on telegram as [@musikmondarazeekbot](https://t.me/musikmkndarazeekbot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/9c33051aae30b996e0ca4.jpg">
+  <img src="https://telegra.ph/file/e9d5f64864bbf10f51f8c.jpg">
 </p>
 <h2> Features </h2>
 

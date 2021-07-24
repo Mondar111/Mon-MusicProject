@@ -534,10 +534,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/famliynvn"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
             ]
         )
         file_name = get_file_name(audio)
@@ -581,10 +581,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -660,10 +660,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -802,10 +802,10 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("⛑ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -940,7 +940,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ Channel", url="https://t.me/familynvn")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1035,10 +1035,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/GeezSupportGroup"),
-                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("🛡️ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
             ]
         )
     requested_by = useer_name

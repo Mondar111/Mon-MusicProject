@@ -534,10 +534,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/siniajaloh"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/famliynvn"),
                 ],
-                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/monajedah")],
             ]
         )
         file_name = get_file_name(audio)
@@ -581,10 +581,10 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/siniajaloh"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/monajedah")],
             ]
         )
         requested_by = message.from_user.first_name
@@ -660,10 +660,10 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/siniajaloh"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/monajedah")],
             ]
         )
             requested_by = message.from_user.first_name
@@ -802,10 +802,10 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/siniajaloh"),
                     InlineKeyboardButton("⛑ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/monajedah")],
             ]
         )
     requested_by = message.from_user.first_name
@@ -1035,10 +1035,10 @@ async def lol_cb(b, cb):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("📌 Groups", url="https://t.me/familynirvana"),
+                    InlineKeyboardButton("📌 Groups", url="https://t.me/siniajaloh"),
                     InlineKeyboardButton("🛡️ Channel", url="https://t.me/familynvn"),
                 ],
-                [InlineKeyboardButton("📨 DONASI", url="https://t.me/mondarajedah")],
+                [InlineKeyboardButton("📨 DONASI", url="https://t.me/monajedah")],
             ]
         )
     requested_by = useer_name

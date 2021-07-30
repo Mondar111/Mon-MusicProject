@@ -30,11 +30,11 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
 Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
-Saya Memiliki Banyak Fitur Seperti :
+Dan Bantu Donasi Yasoalnya Disini Bayar Pake Uwang Sendiri Pc @monajedah Terimakasih Dan Saya Memiliki Banyak Fitur Seperti :
 • Memutar Musik.
 • Mendownload Lagu.
 • Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
+• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya JOIN GROUP SUPPORT https://t.me/siniajaloh
 
 📌 Special Thanks To : {OWNER}
 
@@ -59,7 +59,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
                 ],[
                     InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/mondarajedah")
+                        "🎁 Donate", url=f"https://t.me/monajedah")
                 ]
             ]
         ),
@@ -168,10 +168,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/familynirvana"
+                        "Group Support", url=f"https://t.me/siniajaloh"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/mondarajedah"
+                        "Created By", url=f"https://t.me/monajedah"
                     )
                 ]
             ]
